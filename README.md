@@ -19,8 +19,11 @@ must be represented by a backslash to be followed by the character’s value in 
 Example:
 
 char str[5];
+
 my_strcpy(str, "toto");
+
 str[1] = 6;
+
 my_printf("%S\n", str);
 
 --> Output: t\006to
